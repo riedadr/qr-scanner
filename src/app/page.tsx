@@ -1,7 +1,7 @@
 export default function Home() {
-  return (
-    <main>
-      <h1>Start</h1>
-    </main>
-  )
+	return (
+		<>
+			<h1 className="font-bold text-xl">Scanner</h1>
+		</>
+	);
 }
