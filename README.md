@@ -4,11 +4,11 @@ made with [mebjas/html5-qrcode](https://github.com/mebjas/html5-qrcode) in NextJ
 
 ## Getting started
 
-### Development
-
 ```sh
 git clone https://github.com/riedadr/qr-scanner.git
 ```
+
+### Development
 
 ```sh
 npm install
