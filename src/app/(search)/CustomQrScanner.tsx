@@ -36,7 +36,6 @@ const CustomQrScanner: FC<{
 
 	return (
 		<div>
-			<button onClick={() => html5QrCode.current?.stop()}>STOP</button>
 			{msg && (
 				<p
 					className={
