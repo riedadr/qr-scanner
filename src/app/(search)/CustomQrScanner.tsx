@@ -49,8 +49,8 @@ const CustomQrScanner: FC<{
 					{msg.content}
 				</p>
 			)}
-			<div className="" id={CONTAINER_ID}>
-				CustomQrScanner
+			<div id={CONTAINER_ID}>
+				
 			</div>
 		</div>
 	);
