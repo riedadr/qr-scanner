@@ -18,7 +18,7 @@ const CustomQrScanner: FC<{
 		html5QrCode.current = new Html5Qrcode(CONTAINER_ID);
 
 		Html5Qrcode.getCameras().then((devices) => {
-			if (!devices || devices.length > 1) {
+			if (!devices || devices.length < 1) {
 				setMsg({
 					type: "error",
 					content: "Es wurde keine Kamera gefunden!",
